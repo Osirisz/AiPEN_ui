@@ -204,8 +204,8 @@
     <div class="robust-content container center-layout mt-2">
       <!-- เพิ่ม -->
       <div class=test>
-        <div class="col-md-12 col-sm-6 col-xs-12">
-          <div class="card">
+        <div class="col-md-12 col-sm-6 col-xs-12" style="height:100%;">
+          <div class="card" style="height:100%;">
             <div class="p-1 text-xs-center">
               <div><a data-action="close"><i class="icon-cross2" style="float:right;"></i></a>
                   <h2 class="content-header-title mb-0">Project 001</h2>
@@ -218,7 +218,7 @@
 
               </div>
               <div>
-                <p class="topic" style="float:left;">Status:</p><p style="float:right;"><span class="tag tag-default tag-pill bg-success float-sm-right" style="position:absolute;right:0;margin-right:50px;">Available</span></p><br><br><br>
+                <p class="topic" style="float:left;">Status:</p><span class="tag tag-default tag-pill bg-success float-xs-right" style="right:0;margin-right:20px;">Available</span><br /><br /><br />
                 <p class="topic">Services: 2</p><br>
                 <p class="detailContentBut">NodeJs Module <span class="tag tag-default tag-pill bg-success float-xs-right">Active</span></p>
                   <br>
@@ -227,6 +227,7 @@
                 <p class="topic">Provider: 1</p><br>
                 <img src="do.png" style="width:200px;">
               </div>
+
             </div>
 
           </div>
@@ -252,10 +253,6 @@
               <div class="form-group"></div>
               <!-- Round Outline Icon Buttons-->
               <button type="button" class="btn btn-secondary btn-min-width mr-1 mb-1" data-toggle="modal" data-target="#iconModal"><i class="icon-square-plus"></i>&nbspNew project</button>
-
-
-
-
 
               <div class="modal fade text-xs-left" id="iconModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
                       <div class="modal-dialog" role="document">
@@ -287,12 +284,13 @@
                       </div>
                 </div>
 
-
-
-
-
-
+            </div><br /><br /><br />
+            <fieldset class="form-group position-relative mb-0" style="width:500px; margin-left:15px;">
+            <input type="text" class="form-control form-control-lg input-lg" id="iconLeft" placeholder="Search Project">
+            <div class="form-control-position">
+                <i class="ficon icon-search7 font-medium-4"></i>
             </div>
+            </fieldset>
             <div class="content-header-lead col-xs-12 mt-2">
               <p class="lead"></p>
             </div>
@@ -301,6 +299,7 @@
                 <!--- header row -->
                 <!-- content -->
                       <div class="content-body">
+
                           <div class="col-md-4 col-sm-6 col-xs-12">
                                 <a href="service.html"><div class="card">
                                        <div class="p-1 text-xs-center">
@@ -335,7 +334,7 @@
                                <a href="service.html"> <div class="card">
                                        <div class="p-1 text-xs-center">
                               <div>
-                                  <span class="tag tag-default tag-pill bg-success float-sm-right" style="position:absolute;right:0;margin-right:10px;">Available</span>
+                                  <span class="tag tag-default tag-pill bg-danger float-sm-right" style="position:absolute;right:0;margin-right:10px;">Unavailable</span>
                                   <h3 class="font-large-1 grey darken-1 text-bold-400">Project 002</h3>
                                   <span class="font-small-3 grey darken-1">Request/sec</span>
                               </div>
@@ -357,7 +356,7 @@
                           </div>
 
 
-   <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                <a href="service.html"> <div class="card">
                                        <div class="p-1 text-xs-center">
                               <div>
@@ -406,9 +405,6 @@
                           </div>
                                 </div></a>
                           </div>
-
-
-
 
                       </div>
                       <!-- content -->

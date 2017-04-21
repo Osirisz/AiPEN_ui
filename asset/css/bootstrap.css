@@ -14,15 +14,15 @@ html {
 
 .test{
   width: 500px;
-  position: absolute;
+  position: fixed;
   z-index: 1;
-  /*margin-right: 20px;*/
-  height: 100%;
-  background-color: red;
+  height: 580px;
+  /*background-color: red;*/
   float: right;
-  right:80px;
+  right:0px;
   margin: 0;
   padding: 0;
+  display: block;
 }
 .topic{
   color: grey;
@@ -30,8 +30,10 @@ html {
 }
 .detailContent{
   margin: 20px;
-
+  overflow-y: auto;
+  height: 450px;
 }
+
 .detailContentBut{
   margin-right: 30px;
 }
