@@ -13,11 +13,6 @@ html {
 }
 
 /*add*/
-.mt-2.contentTest{
-  margin-left: 80px;
-  width: 100%;
-  position: relative;
-}
 .test{
   width: 500px;
   position: fixed;
@@ -33,20 +28,44 @@ html {
   color: grey;
   font-size: 22px;
 }
-.detailContent{
+.detailContentBut{
+  margin-right: 30px;
+}
+/*Proj*/
+.mt-2.contentTestProj{
+  margin-left: 80px;
+  width: 100%;
+  position: relative;
+}
+.detailContentProj{
   margin: 20px;
   overflow-y: auto;
   height: 450px;
 }
-.detailContentBut{
-  margin-right: 30px;
-}
-.content-wrapper.cardTest{
+.content-wrapper.divTestProj{
   width: 900px;
 }
-.col-md-4.cardTest{
+.col-md-4.cardTestProj{
   width: 50%;
 }
+/*Infra*/
+.mt-2.contentTestInfra{
+  margin-left: 80px;
+  width: 100%;
+  position: relative;
+}
+.detailContentInfra{
+  margin: 20px;
+  overflow-y: auto;
+  height: 450px;
+}
+.content-wrapper.divTestInfra{
+  width: 900px;
+}
+.col-md-4.cardTestInfra{
+  width: 50%;
+}
+
 /*end add*/
 
 body {
