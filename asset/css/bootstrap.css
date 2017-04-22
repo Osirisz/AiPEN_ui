@@ -65,7 +65,23 @@ html {
 .col-md-4.cardTestInfra{
   width: 50%;
 }
-
+/*service*/
+.mt-2.contentTestServ{
+  margin-left: 80px;
+  width: 100%;
+  position: relative;
+}
+.detailContentServ{
+  margin: 20px;
+  overflow-y: auto;
+  height: 450px;
+}
+.content-wrapper.divTestServ{
+  width: 900px;
+}
+.col-md-4.cardTestServ{
+  width: 50%;
+}
 /*end add*/
 
 body {
