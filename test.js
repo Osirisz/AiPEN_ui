@@ -4,7 +4,7 @@ function extendContent() {
     var c = document.getElementsByClassName("detailContentBut");
     var d = document.getElementsByClassName("mt-2 contentTestProj");
     var e = document.getElementsByClassName("detailContentProj");
-    var f = document.getElementsByClassName("content-wrapper.divTestProj");
+    var f = document.getElementsByClassName("content-wrapper divTestProj");
     var g = document.getElementsByClassName("col-md-4 cardTestProj");
     var h = document.getElementsByClassName("mt-2 contentTestInfra");
     var i = document.getElementsByClassName("detailContentInfra");

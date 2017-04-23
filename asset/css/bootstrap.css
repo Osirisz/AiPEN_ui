@@ -12,78 +12,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/*add*/
 .test{
-  width: 500px;
-  position: fixed;
-  z-index: 1;
-  height: 580px;
-  float: right;
-  right:0px;
-  margin: 0;
-  padding: 0;
-  display: block;
+  display: none;
 }
-.topic{
-  color: grey;
-  font-size: 22px;
-}
-.detailContentBut{
-  margin-right: 30px;
-}
-/*Proj*/
-.mt-2.contentTestProj{
-  margin-left: 80px;
-  width: 100%;
-  position: relative;
-}
-.detailContentProj{
-  margin: 20px;
-  overflow-y: auto;
-  height: 450px;
-}
-.content-wrapper.divTestProj{
-  width: 900px;
-}
-.col-md-4.cardTestProj{
-  width: 50%;
-}
-/*Infra*/
-.mt-2.contentTestInfra{
-  margin-left: 80px;
-  width: 100%;
-  position: relative;
-}
-.detailContentInfra{
-  margin: 20px;
-  overflow-y: auto;
-  height: 450px;
-}
-.content-wrapper.divTestInfra{
-  width: 900px;
-}
-.col-md-4.cardTestInfra{
-  width: 50%;
-}
-/*service*/
-.mt-2.contentTestServ{
-  margin-left: 80px;
-  width: 100%;
-  position: relative;
-}
-.detailContentServ{
-  margin: 20px;
-  overflow-y: auto;
-  height: 450px;
-}
-.content-wrapper.divTestServ{
-  width: 900px;
-}
-.col-md-4.cardTestServ{
-  width: 50%;
-}
-/*end add*/
-
 body {
   margin: 0;
 }
