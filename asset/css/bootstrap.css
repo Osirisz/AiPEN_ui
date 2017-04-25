@@ -11,10 +11,18 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
+/*add*/
 .test{
   display: none;
 }
+.topic{
+  color: grey;
+  font-size: 22px;
+}
+.detailContentBut{
+  margin-right: 30px;
+}
+/*end-add*/
 body {
   margin: 0;
 }
