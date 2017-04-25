@@ -1,3 +1,10 @@
+function closeExtendContent() {
+  var z = document.getElementsByClassName("col-md-4 cardTestProj")[0].removeAttribute("style");
+  var aa = document.getElementsByClassName("test");
+  for (acountTest = 0; acountTest < aa.length; acountTest++) {
+      aa[acountTest].style.display = "none";
+  }
+}
 function extendContent() {
     var a = document.getElementsByClassName("test");
     var b = document.getElementsByClassName("topic");
