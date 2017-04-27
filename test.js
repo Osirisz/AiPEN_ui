@@ -77,6 +77,7 @@ function closeExtendContent() {
   for (countCol4CardTestInServ = 0; countCol4CardTestInServ < m.length; countCol4CardTestInServ++) {
       m[countCol4CardTestInServ].removeAttribute("style");
   }
+  document.getElementById("graphTest").style.width = "1062px";
 }
 function extendContent() {
     var a = document.getElementsByClassName("test");
@@ -92,9 +93,7 @@ function extendContent() {
     var k = document.getElementsByClassName("detailContentServ");
     var l = document.getElementsByClassName("content-wrapper divTestServ");
     var m = document.getElementsByClassName("col-md-4 cardTestServ");
-    var n = document.getElementById("graphTest");
-    n.style.width = "850px";
-    
+
     var countTest;
     for (countTest = 0; countTest < a.length; countTest++) {
         a[countTest].style.width = "500px";
@@ -179,4 +178,6 @@ function extendContent() {
     for (countCol4CardTestInServ = 0; countCol4CardTestInServ < m.length; countCol4CardTestInServ++) {
         m[countCol4CardTestInServ].style.width = "50%";
     }
+    document.getElementById("graphTest").style.width = "850px";
+
 }
